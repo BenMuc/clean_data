@@ -1,0 +1,11 @@
+Code book for the clean data script
+
+test        test result data
+train       training result data
+[,562]      column with activity ID added
+[,563]      column with subject ID added
+labels      label data containig the link between activity ID and activity
+feat        chronological description of columns in test/training
+rs          numbers of the rows of feat which contain mean or std data (+columns for subject and activity IDs)
+complete    test + training data combined
+clean       means aggregated by activity resp. subject
